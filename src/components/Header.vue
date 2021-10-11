@@ -3,12 +3,12 @@
     <div class="headerWrapper">
       <img src="../assets/sakiyama_ロゴ2.png" alt="" class="logo">
       <div id="nav">
-        <a href="#" target="_blank" rel="noopener noreferrer">Home</a>
-        <a href="#about" target="_blank" rel="noopener noreferrer">About</a>
-        <a href="#skill" target="_blank" rel="noopener noreferrer">Skill</a>
-        <a href="#works" target="_blank" rel="noopener noreferrer">Works</a>
-        <a href="#carrer" target="_blank" rel="noopener noreferrer">Carrer</a>
-        <a href="#contact" target="_blank" rel="noopener noreferrer">Contact</a>
+        <a href="#" rel="noopener noreferrer">Home</a>
+        <a href="#about" rel="noopener noreferrer">About</a>
+        <a href="#skill" rel="noopener noreferrer">Skill</a>
+        <a href="#works" rel="noopener noreferrer">Works</a>
+        <a href="#carrer" rel="noopener noreferrer">Carrer</a>
+        <a href="#contact" rel="noopener noreferrer">Contact</a>
       </div>
     </div> 
   </div>

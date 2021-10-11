@@ -6,7 +6,7 @@
       <img src="../assets/welcome.png" alt=""> 
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
       <h1>About</h1>
         <div class="about_contents">
           <img src="../assets/mypicture.png" alt="">
@@ -21,7 +21,7 @@
         </div>
     </div>
 
-    <div class="skill">
+    <div class="skill" id="skill">
       <h1>Skill</h1>
       <div class="skill_contents">
         <fade-animation>
@@ -120,7 +120,7 @@
       </div>  
     </div>
 
-    <div class="works">
+    <div class="works" id="works">
       <h1>Works</h1>
       <div class="works_contents">
 
@@ -152,7 +152,7 @@
         
         <div class="works_content">
           <img src="../assets/portfolio_仮.png" alt="ポートフォリオサイトの画像">
-          <a href="https://clack.ne.jp" class="work_title">ポートフォリオサイト</a>
+          <a href="https://kooooo2014.github.io/portfolio/" class="work_title">ポートフォリオサイト</a>
           <div class="work_skills">
             <p># HTML/CSS</p>
             <p># JavaScript</p>
@@ -172,8 +172,8 @@
               <h3>〇工夫点やこだわり</h3>
               <p>必要な箇所にのみアニメーションをつけるようにし、軽量なサイトになるよう気をつけました。</p>
             
-              <p class="link">URL：<a href=""></a></p>
-              <p class="link">GitHub：</p>
+              <p class="link">URL：<a href="https://kooooo2014.github.io/portfolio/">https://kooooo2014.github.io/portfolio/</a></p>
+              <p class="link">GitHub：<a href="https://github.com/kooooo2014/portfolio">https://github.com/kooooo2014/portfolio</a></p>
               
             </div>
           </modal>
@@ -198,8 +198,8 @@
               <h3>〇工夫点やこだわり</h3>
               <p>webサイト制作ではなるべく手書きでコードを書くようにしていましたが、本作品では、Bootstrap（デザイン面）やDevise（サインアップ機能）を用いて、効率的に制作するようにしました。</p>
             
-              <p class="link">URL：<a href="https://gentle-brook-59158.herokuapp.com/">https://gentle-brook-59158.herokuapp.com/</a></p>
-              <p class="link">GitHub：</p>
+              <p class="link">URL：<a href="https://sacky-gram.herokuapp.com/users/sign_in">https://sacky-gram.herokuapp.com/users/sign_in</a></p>
+              <p class="link">GitHub：<a href="https://github.com/kooooo2014/sacky-gram">https://github.com/kooooo2014/sacky-gram</a></p>
             </div>
           </modal>
         </div>
@@ -207,7 +207,7 @@
       </div>
     </div>
 
-    <div class="carrer">
+    <div class="carrer" id="carrer">
       <h1>Carrer</h1>
       <div class="carrer_contents">
         <div class="carrer_ctn">
@@ -261,7 +261,27 @@
       </div>  
     </div>
 
-    <div class="contact"></div>
+    <div class="contact" id="contact">
+      <div class="contact-contents">
+        <div class="contact-content">
+          <img src="../assets/icons8-mail-48.png" alt="mail">
+          <p>Mail: k.sakiyama.20141763@gmail.com</p>
+        </div>
+        <div class="contact-content">
+          <a href="https://github.com/kooooo2014" target="_blank"><img src="../assets/icons8-github-48.png" alt="mail"></a>
+          <p>GitHub: https://github.com/kooooo2014</p>
+          
+        </div>
+        <div class="contact-content">
+          <a href="https://www.facebook.com/sacky2014" target="_blank"><img src="../assets/icons8-facebook-f-48.png" alt="mail"></a>
+          <p>Facebook: https://www.facebook.com/sacky2014</p>
+          
+        </div>
+        
+        
+        
+      </div>
+    </div>
   </div>
 </template>
 
@@ -469,5 +489,20 @@ export default {
   padding-right: 40px;
 }
 
+.contact {
+  margin: auto;
+  width: fit-content;
+  padding: 60px 0;
+}
+
+.contact .contact-content {
+  display: flex;
+  margin-bottom:20px; 
+}
+
+.contact .contact-content p {
+  line-height: 48px;
+  padding-left: 20px;
+}
  
 </style>

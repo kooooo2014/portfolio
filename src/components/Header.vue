@@ -3,11 +3,12 @@
     <div class="headerWrapper">
       <img src="../assets/sakiyama_ロゴ2.png" alt="" class="logo">
       <div id="nav">
-        <router-link to="/">Home</router-link> 
-        <router-link to="/about">About</router-link> 
-        <router-link to="/Profile">Profile</router-link> 
-        <router-link to="/Contact">Contact</router-link>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">F</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Home</a>
+        <a href="#about" target="_blank" rel="noopener noreferrer">About</a>
+        <a href="#skill" target="_blank" rel="noopener noreferrer">Skill</a>
+        <a href="#works" target="_blank" rel="noopener noreferrer">Works</a>
+        <a href="#carrer" target="_blank" rel="noopener noreferrer">Carrer</a>
+        <a href="#contact" target="_blank" rel="noopener noreferrer">Contact</a>
       </div>
     </div> 
   </div>
@@ -32,7 +33,6 @@ a {
 
 .header {
   background-color: transparent;
-  /* box-shadow: 0 2px 10px rgba(0,0,0,0.1); */
   width: 100%;
   position: absolute;
   z-index: 2;
@@ -58,18 +58,10 @@ a {
 }
 
 .headerWrapper #nav a:hover {
-  border-bottom: 1px solid #2c3e50;
-}
-
-.headerWrapper #nav a.router-link-exact-active {
+  border-bottom: 1px solid #d6c050;
   color: #d6c050;
   text-decoration: #d6c050;
   transition: .3s;
 }
-
-.headerWrapper #nav a.router-link-exact-active:hover {
-  border-bottom: 1px solid #d6c050;
-}
-
 
 </style>
